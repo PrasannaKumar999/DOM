@@ -66,4 +66,9 @@ function clock(){
     }
     setInterval(clock,1)
 
+    document.getElementById("click5").onclick = function(){
+        const vsss = document.getElementById("dropDown").value; 
+        document.getElementById("gettext").innerHTML=document.getElementById("gettext").textContent+vsss;
+    }
+
 
